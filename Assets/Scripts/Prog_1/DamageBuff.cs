@@ -5,7 +5,7 @@ using UnityEngine;
 public class DamageBuff : Buff
 {
     //TODO odkaz na hr·Ëe
-    float dmg = 5; // Z hr·Ëe
+    float dmg = 5; // Za hr·Ëe
     protected override void ApplyBuff()
     {
         dmg *= buffPower;
